@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "solution-inyeccion-css",
+    "libraryId": "cb63cb96-57ee-4901-9d9c-33455ac57f29",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Solution_Inyeccion_Css",
+    "solutionShortDescription": "Solution_Inyeccion_Css description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

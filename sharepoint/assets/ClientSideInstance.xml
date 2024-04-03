@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="AppInyeccionCss"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="09d8e72b-e16d-4dde-9524-b585f879a5eb"
+        Properties="{&quot;CssFileLocation&quot;:&quot;/Style/Style.css&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

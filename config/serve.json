@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://havannacsp.sharepoint.com/sites/Ventas_Corporativas",
+      "customActions": {
+        "09d8e72b-e16d-4dde-9524-b585f879a5eb": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "CssFileLocation": "/Style/Style.css"
+          }
+        }
+      }
+    },
+    "appInyeccionCss": {
+      "pageUrl": "https://havannacsp.sharepoint.com/sites/Ventas_Corporativas",
+      "customActions": {
+        "09d8e72b-e16d-4dde-9524-b585f879a5eb": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "CssFileLocation": "/Style/Style.css"
+          }
+        }
+      }
+    }
+  }
+}
